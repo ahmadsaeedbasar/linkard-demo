@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0d1023;
+  color: white;
+}
+
+.landing-container {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Paper Plane Icons */
+.paper-plane {
+  position: absolute;
+  
+}
+.paper-plane.top-right {
+  font-size: 30px;
+    color: #d3e43a;
+  top: 10px;
+  right: 10px;
+}
+.paper-plane.bottom-left {
+  bottom: 70px;
+    color: #40819D;
+  left: 10px;
+  font-size: 75px;
+}
+
+/* Header Logo */
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.logo-tab {
+  background: linear-gradient(to right, #9b5de5, #00bbf9);
+  padding: 8px 16px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.logo-purple {
+  color: #d182f4;
+  font-weight: bold;
+}
+.logo-blue {
+  color: #00bbf9;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero-logo{
+    width: 200px;
+    align-items: left;
+    margin-left: 50px;
+    height: auto;
+    display: block;
+}
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: linear-gradient(#d3e43a, #40819D);
+}
+.hero-subtitle {
+  max-width: 600px;
+  margin: 10px auto;
+  font-size: 1rem;
+  color: #7A728B;
+}
+.hero-small-text {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #a7a5a5;
+}
+.cta-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #382C52, #7A728B);
+  color: #a7a5a5;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.cta-button:hover {
+  opacity: 0.9;
+}
+.arrow {
+  margin-left: 8px;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+.feature-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 12px;
+  width: 280px;
+  text-align: center;
+}
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.feature-icon.pink {
+  color: #d3e43a;
+}
+.feature-icon.blue {
+  color: #4e9cff;
+}
+.feature-icon.green {
+  color: #a3ff4e;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.footer-links {
+  margin-top: 10px;
+}
+.footer-links a {
+  margin: 0 8px;
+  color: #aaa;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: white;
+}

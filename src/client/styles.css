@@ -1,50 +1,22 @@
-/* 
-  We've already included normalize.css. 
-
-  But we'd like a modern looking boilerplate. 
-  Clean type, sans-serif, and a nice color palette. 
+header{
+  background-color: #1A1825; /* Green background */
   
-*/
-
-body {
-  font-family: sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #999;
-  background-color: black;
-  text-align: center;
-  padding-top: 40px;
+  text-align: left; 
+  color: white; /* White text color */
+  font-size: 24px; /* Larger font size */
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: sans-serif;
-  font-weight: 600;
-  line-height: 1.25;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+
+
+footer{
+  background-color: #1A1825; /* Green background */
+  color: white; /* White text color */
+  text-align: center; /* Centered text */
+  padding: 10px; /* Padding around the footer */
+  position: fixed; /* Fixed position at the bottom */
+  bottom: 0; /* Align to the bottom of the page */
+  width: 100%; /* Full width */
+
 }
 
-#app {
-  padding: 1rem;
-}
 
-h1 {
-  color: white;
-}
-
-b {
-  color: white;
-  font-weight: bold;
-}
-
-a {
-  color: #ccc;
-  text-decoration-line: underline;
-  text-underline-offset: 3px;
-  text-decoration-color: #555;
-}
