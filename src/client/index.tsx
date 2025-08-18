@@ -5,6 +5,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import GlobeBase from "./globe";
 import LandingPage from "./LandingPage";
+import Dashboard from "./Dashboard";
 
 function App() {
   return (
@@ -14,15 +15,11 @@ function App() {
   
     
     <Router>
-      {/* <div>
-        <Link to="/">Home</Link>
-        {" | "}
-        <Link to="/globe">Globe</Link>
-        <Link to="/LandingPage">About</Link>
-      </div> */}
+      
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/globe" element={<GlobeBase />} />
+        <Route path="/" element={<LandingPage/>} />
      
       </Routes>
     </Router>

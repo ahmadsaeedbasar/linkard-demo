@@ -2,6 +2,7 @@ import React from "react";
 import "./LandingPage.css";
 import { FaPaperPlane, FaBriefcase, FaHandshake, FaUsers } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import GlobeBase from "./globe";
 
 const LandingPage: React.FC = () => {
   return (
@@ -30,12 +31,13 @@ const LandingPage: React.FC = () => {
           Build a stunning portfolio, earn client trust, and collab with other professionals — all in one platform
         </p>
         <p className="hero-small-text">
-          Comming Soon we’ve got you covered.
+          Comming Soon we’ll got you covered.
         </p>
         <button className="cta-button">
           Get Started
            <span className="arrow">→</span>
-          <Link to="/globe" className="globe-link">
+          <Link to="/globe" className="globe-link" >
+          <GlobeBase />
           </Link>
         </button>
         
